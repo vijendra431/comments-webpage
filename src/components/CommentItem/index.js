@@ -48,7 +48,7 @@ const CommentItem = props => {
                 className={`like-button ${addlike}`}
                 onClick={onToggleLike}
               >
-                <img src={likeDisLike} className="like-image" /> Like
+                <img src={likeDisLike} className="like-image" alt="like" /> Like
               </button>
             </div>
             <div className="delete-container">
