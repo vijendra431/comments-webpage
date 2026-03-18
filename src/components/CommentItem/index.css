@@ -1,0 +1,137 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+/* Write your CSS here */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.first-container {
+  display: flex;
+  flex-direction: column;
+}
+.first-letter-container {
+  color: #ffffff;
+}
+.heading2 {
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 50%;
+}
+.first-row {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.time-row {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.like-delete-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.like-container {
+  display: flex;
+  gap: 10px;
+}
+
+.like-button {
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+}
+
+.like-image {
+  height: 50px;
+  width: 50px;
+}
+
+.delete-button {
+  border: none;
+  background-color: transparent;
+}
+.delete-image {
+  height: 50px;
+  width: 50px;
+}
+
+.name {
+  color: #334155;
+  font-weight: bold;
+  font-family: Bree Serif;
+}
+.time {
+  color: #64748b;
+  font-family: Bree Serif;
+}
+
+.comment {
+  color: #7e858e;
+  font-family: Bree Serif;
+}
+
+@media screen and (max-width: 576px) {
+  .name {
+    font-size: 15px;
+  }
+  .time {
+    font-size: 12px;
+  }
+  .comment {
+    font-size: 13px;
+    padding-top: 6px;
+  }
+
+  .heading2 {
+    font-size: 12px;
+  }
+}
+
+.like {
+  color: #0284c7;
+  font-family: Bree Serif;
+}
+
+.edit-button {
+  background-color: transparent;
+  color: black;
+  border: none;
+  padding: 10px;
+  border-style: solid;
+  border-color: black;
+  font-weight: bold;
+  font-family: Bree Serif;
+  border-radius: 10px;
+}

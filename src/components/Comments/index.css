@@ -1,0 +1,160 @@
+/* Write your CSS here */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.comment-container {
+  background-color: white;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.comment-container2 {
+  padding: 2px;
+  width: 90%;
+  margin: 0px;
+}
+
+.heading {
+  color: #1e293b;
+  font-weight: 900;
+  font-family: Bree Serif;
+}
+
+.comment-container3 {
+  border-radius: 1px;
+}
+
+.image-container {
+  border-radius: 2px;
+}
+
+.comment-image {
+  height: 40vh;
+  width: 70vw;
+}
+
+.para {
+  color: #475569;
+  font-family: Bree Serif;
+}
+
+.input {
+  padding: 10px;
+  border-radius: 5px;
+  width: 200px;
+  border-style: solid;
+  border-color: #cbd2d9;
+  outline: none;
+}
+.big-input {
+  padding: 10px;
+  border-radius: 5px;
+  width: 200px;
+  border-style: solid;
+  border-color: #cbd2d9;
+  margin-top: 10px;
+  outline: none;
+}
+
+.comment-button {
+  background-color: #0284c7;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.information-container {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+}
+.line {
+  padding: 10px;
+}
+
+.count {
+  background-color: #0284c7;
+  color: #ffffff;
+  font-weight: 900;
+  padding: 10px;
+}
+
+.comment-count {
+  color: #475569;
+  font-family: Bree Serif;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1400px) {
+  .comment-container3 {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .comment-image {
+    width: 40vw;
+  }
+  .image-container {
+    width: 45vw;
+    order: 2;
+  }
+
+  .information-container {
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    order: 1;
+  }
+
+  .comment-button {
+    width: 10vw;
+  }
+
+  .input {
+    width: 260px;
+  }
+  .big-input {
+    width: 260px;
+  }
+}
+
+.comments-list {
+  list-style-type: none;
+  padding: 0px;
+}
+
+@media screen and (max-width: 576px) {
+  .information-container {
+    width: 60vw;
+  }
+}
+
+.length-search-container {
+  display: flex;
+  justify-content: space-between;
+}
+.input-search {
+  border-style: solid;
+  border-color: black;
+  font-weight: bold;
+  outline: none;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .input-search {
+    padding: 2px;
+    height: 40px;
+    width: 60px;
+  }
+}
